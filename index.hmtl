@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+<body>
+  <div>
+    <h1 id="title">Survey Form</h1>
+  <p id="description">This is a project made by Jairo for the completion of the <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">responsive web design course</a></p>
+  <form id="survey-form">
+   <div>
+    <label id="name-label" for="name">
+      Enter your name *
+      <input id="name" type="text" placeholder="-- Your Name --" required>
+      </label>
+    <label id="email-label" for="email" >
+      Enter your Email *
+      <input id="email" type="email" placeholder="-- Your Email --" required>
+    </label>
+    <label id="number-label" for="number">
+      Enter your Phone Number *
+      <input id="number" type="number" min="10" max="14" placeholder="-- Your Phone Number --">
+    </label>
+  </div>
+
+  <fieldset>
+    <legend>What is your favorite pokemon mainline games</legend>
+    <select id="dropdown">
+      <option value="" label="-- Select your favorite generation --">
+      </option>
+      <option value="first" label="Pokémon Red, Blue and Yellow">
+      </option>
+      <option value="second" label="Pokémon Gold, Silver and Crystal">
+      </option>
+      <option value="third" label="Pokémon Fire Red, Leaf Green, Ruby, Saphire and Emerald">
+      </option>
+      <option value="forth" label="Pokémon Soul Silver, Heart Gold, Diamond, Pearl and Platinum">
+      </option>
+      <option value="fifth" label="Pokémon Black, White, Black 2 and White 2">
+      </option>
+      <option value="sixth" label="Pokémon X, Y, Omega Ruby and Alpha Saphire">
+      </option>
+      <option value="seventh" label="Pokémon Sun, Moon, Ultra Sun and Ultra Moon">
+      </option>
+      <option value="eight" label="Pokémon Sword, Shield, Let's go Pikachu and Let's go eevee">
+      </option>
+      <option value="ninth" label="Pokémon Scarlet, Violet and Legends Arceus">
+      </option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>What is your favorite nintendo handheld console *</legend>
+    <div>
+      <label>
+        <input value="GameBoy" name="Nintendo" type="radio">
+        Game boy, Game boy color and Game boy Advance
+      </label>
+    </div>
+    <div>
+      <label>
+        <input value="DS" name="Nintendo" type="radio">
+        Nintendo DS, DS Lite and DSi XL
+        </label>
+    </div>
+    <div>
+      <label>
+        <input value="3DS"  name="Nintendo" type="radio">
+        Nintendo NEW 3DS, NEW 3DS XL and NEW 2DS XL
+      </label>
+      </div>
+      <div>
+      <label>
+        <input value="switch" name="Nintendo" type="radio">
+        Nintendo Switch, Switch Lite and Switch OLED
+      </label>
+    </div>
+    </fieldset>
+    <fieldset>
+  <legend>What game genres do you like most from Nintendo?</legend>
+  <div>
+    <label class="checkboxLabel" for="platformer">
+      <input type="checkbox" id="platformer" value="Platformer">
+      Platformers
+    </label>
+  </div>
+  <div>
+    <input type="checkbox" id="rpg" value="RPG">
+    <label class="checkboxLabel" for="rpg">RPGs</label>
+  </div>
+  <div>
+    <label class="checkboxLabel" for="adventure">
+      <input type="checkbox" id="adventure" value="Adventure">
+      Adventure
+      </label>
+  </div>
+  <div>
+    <label class="checkboxLabel" for="party">
+      <input type="checkbox" id="party" value="Party">
+      Party Games
+    </label>
+  </div>
+  <div>
+    <label class="checkboxLabel" for="puzzle">
+      <input type="checkbox" id="puzzle" value="Puzzle">
+      Puzzle
+    </label>
+  </div>
+</fieldset>
+      <label>what is your favorite game and why do you like it *</label>
+      <textarea></textarea>
+      <button id="submit" type="submit">Send</button>
+  </form>
+  <div>
+</body>
