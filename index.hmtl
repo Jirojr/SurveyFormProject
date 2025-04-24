@@ -52,65 +52,64 @@
     </select>
   </fieldset>
   <fieldset>
+    
     <legend>What is your favorite nintendo handheld console *</legend>
-    <div>
-      <label>
-        <input value="GameBoy" name="Nintendo" type="radio">
-        Game boy, Game boy color and Game boy Advance
-      </label>
-    </div>
-    <div>
-      <label>
-        <input value="DS" name="Nintendo" type="radio">
-        Nintendo DS, DS Lite and DSi XL
-        </label>
-    </div>
-    <div>
-      <label>
-        <input value="3DS"  name="Nintendo" type="radio">
-        Nintendo NEW 3DS, NEW 3DS XL and NEW 2DS XL
-      </label>
-      </div>
-      <div>
-      <label>
-        <input value="switch" name="Nintendo" type="radio">
-        Nintendo Switch, Switch Lite and Switch OLED
-      </label>
+    <div class="radio-container">
+            <label>
+                <input value="GameBoy" name="Nintendo" type="radio">
+                Game boy Family
+            </label>
+            <label>
+                <input value="DS" name="Nintendo" type="radio">
+                Nintendo DS Family
+                </label>
+            <label>
+                <input value="3DS"  name="Nintendo" type="radio">
+                Nintendo 3DS Family
+            </label>
+            <label>
+                <input value="switch" name="Nintendo" type="radio">
+                Nintendo Switch Family
+            </label>
     </div>
     </fieldset>
     <fieldset>
-  <legend>What game genres do you like most from Nintendo?</legend>
-  <div>
-    <label class="checkboxLabel" for="platformer">
-      <input type="checkbox" id="platformer" value="Platformer">
-      Platformers
-    </label>
-  </div>
-  <div>
-    <input type="checkbox" id="rpg" value="RPG">
-    <label class="checkboxLabel" for="rpg">RPGs</label>
-  </div>
-  <div>
-    <label class="checkboxLabel" for="adventure">
-      <input type="checkbox" id="adventure" value="Adventure">
-      Adventure
-      </label>
-  </div>
-  <div>
-    <label class="checkboxLabel" for="party">
-      <input type="checkbox" id="party" value="Party">
-      Party Games
-    </label>
-  </div>
-  <div>
-    <label class="checkboxLabel" for="puzzle">
-      <input type="checkbox" id="puzzle" value="Puzzle">
-      Puzzle
-    </label>
-  </div>
-</fieldset>
-      <label>what is your favorite game and why do you like it *</label>
-      <textarea></textarea>
+        <legend>What game genres do you like most from Nintendo?</legend>
+        <div class="checkbox-container">
+            <div>
+                <label class="checkboxLabel" for="platformer">
+                <input type="checkbox" id="platformer" value="Platformer">
+                Platformers
+                </label>
+            </div>
+            <div>
+                <label class="checkboxLabel" for="rpg">
+                    <input type="checkbox" id="rpg" value="RPG">
+                    RPGs
+                </label>
+            </div>
+            <div>
+                <label class="checkboxLabel" for="adventure">
+                <input type="checkbox" id="adventure" value="Adventure">
+                Adventure
+                </label>
+            </div>
+            <div>
+                <label class="checkboxLabel" for="party">
+                <input type="checkbox" id="party" value="Party">
+                Party Games
+                </label>
+            </div>
+            <div>
+                <label class="checkboxLabel" for="puzzle">
+                <input type="checkbox" id="puzzle" value="Puzzle">
+                Puzzle
+                </label>
+            </div>
+        </div>
+    </fieldset>
+      <legend>What is your favorite game and why do you like it *</legend>
+      <textarea placeholder="Do talk a bit please"></textarea>
       <button id="submit" type="submit">Send</button>
   </form>
   <div>
