@@ -3,5 +3,5 @@ Projeto de formulário básico para o curso de web design responsivo no FreeCode
 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/user-attachments/assets/540a4c49-6d78-4a7d-94ec-e7e8f4cc0b5b">
+  <img width="auto" height="auto" src="https://github.com/user-attachments/assets/540a4c49-6d78-4a7d-94ec-e7e8f4cc0b5b">
 </p>
